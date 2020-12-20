@@ -1,0 +1,12 @@
+body{
+  background-image:url('../images/asi1.jpg');
+}
+.questionblock{
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-right:200px;
+  padding-left:350px;
+  border-style:solid;
+  max-width:400px;
+  background-color:lightblue;
+}

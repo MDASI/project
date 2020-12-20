@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+ <head>
+ <title>Test</title>
+ <link rel="stylesheet" href="{%static 'css/first.css' %}">
+ </head>
+ <body>
+ <div class="heading">
+ <h1>Hello, Guest</h1>
+ </div>
+ <div class="questionblock">
+  {% if a %}
+    <h1>{{a}}</h1>
+  {% else %}
+    level not defined
+  {% endif %}
+ <div class="que">
+ <h2>Q.{{que}}</h2>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{a}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{b}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{c}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{d}}</span>
+ </div>
+ <div class="submit">
+ <input type="submit" >
+ </div>
+ <div class="que2">
+ <h2>Q2.{{que2}}</h2>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{a2}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{b2}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{c2}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{d2}}</span>
+ </div>
+ <div class="submit">
+ <input type="submit" >
+ </div>
+ <div class="options">
+ <h2>Q3.{{que3}}</h2>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{a3}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{b3}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{c3}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{d3}}</span>
+ </div>
+ <div class="submit">
+ <input type="submit" >
+ </div>
+ <div  class="options">
+ <h2>Q4.{{que4}}</h2>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{a4}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{b4}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{c4}}</span>
+ </div>
+ <div class="options">
+ <input type="radio" name="answer"><span>{{d4}}</span>
+ </div>
+ <div class="submit">
+ <input type="submit" >
+ </div>
+</div>
+  {% lorem %}
+ </html>
